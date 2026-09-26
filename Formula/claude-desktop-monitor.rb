@@ -8,8 +8,8 @@ class ClaudeDesktopMonitor < Formula
   license "GPL-3.0-only"
 
   bottle do
-    root_url "https://github.com/thamwangjun/homebrew-tap/releases/download/claude-desktop-monitor-0.3.0"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe: "c6952a97063b708f0dd3a51e1c9d0a4442f311d8722f2e9e180592ce7b824785"
+    root_url "https://github.com/thamwangjun/homebrew-tap/releases/download/claude-desktop-monitor-0.3.1"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe: "3d0eba436f536c672ae9bf4ba9caf81143f695da0687f510dd74e2138c2b29e3"
   end
 
   depends_on "rust" => :build
