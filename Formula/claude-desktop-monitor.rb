@@ -7,6 +7,11 @@ class ClaudeDesktopMonitor < Formula
   sha256 "f580bd37a4e2cb55baf8080b09a2587b7ed7f32b09f92428197b3da1114e9e1a"
   license "GPL-3.0-only"
 
+  bottle do
+    root_url "https://github.com/thamwangjun/homebrew-tap/releases/download/claude-desktop-monitor-0.3.0"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe: "c6952a97063b708f0dd3a51e1c9d0a4442f311d8722f2e9e180592ce7b824785"
+  end
+
   depends_on "rust" => :build
   depends_on :macos
   depends_on "python@3.14"
