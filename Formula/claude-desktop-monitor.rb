@@ -3,8 +3,8 @@ class ClaudeDesktopMonitor < Formula
 
   desc "Watch Claude Desktop's resource usage over time in a terminal UI"
   homepage "https://github.com/thamwangjun/claude-desktop-monitor"
-  url "https://github.com/thamwangjun/claude-desktop-monitor/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "f580bd37a4e2cb55baf8080b09a2587b7ed7f32b09f92428197b3da1114e9e1a"
+  url "https://github.com/thamwangjun/claude-desktop-monitor/archive/refs/tags/v0.3.1.tar.gz"
+  sha256 "18a0273544567376b5337a3f2658ee10aa795ecd4f21c1fc367c6f4b9dc64526"
   license "GPL-3.0-only"
 
   bottle do
